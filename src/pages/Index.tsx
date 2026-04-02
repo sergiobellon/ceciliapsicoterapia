@@ -21,11 +21,6 @@ const Index = () => {
           ctaTo="/contacto"
         />
         <AreasGrid />
-        <FranjaSection
-          variant="green"
-          title=""
-          text=""
-        />
         <ProcesoSection />
       </main>
       <Footer />
