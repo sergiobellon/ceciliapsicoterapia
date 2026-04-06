@@ -7,6 +7,7 @@ import SobreMi from "./pages/SobreMi";
 import Servicios from "./pages/Servicios";
 import Contacto from "./pages/Contacto";
 import NotFound from "./pages/NotFound";
+import ScrollToTop from "./components/ScrollToTop";
 
 const queryClient = new QueryClient();
 
@@ -15,6 +16,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/sobre-mi" element={<SobreMi />} />
