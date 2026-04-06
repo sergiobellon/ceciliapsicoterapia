@@ -19,7 +19,7 @@ const ContactForm = () => {
       <div className="container mx-auto px-4 lg:px-8 max-w-2xl fade-in">
         <form onSubmit={handleSubmit} className="space-y-8">
           <div>
-            <label className="block font-body text-base text-primary mb-2">Nombre y apellidos</label>
+            <label className="block font-body text-lg text-primary mb-2">Nombre y apellidos</label>
             <input
               type="text"
               value={form.nombre}
@@ -28,7 +28,7 @@ const ContactForm = () => {
             />
           </div>
           <div>
-            <label className="block font-body text-base text-primary mb-2">Teléfono</label>
+            <label className="block font-body text-lg text-primary mb-2">Teléfono</label>
             <input
               type="tel"
               value={form.telefono}
@@ -37,7 +37,7 @@ const ContactForm = () => {
             />
           </div>
           <div>
-            <label className="block font-body text-base text-primary mb-2">Correo electrónico</label>
+            <label className="block font-body text-lg text-primary mb-2">Correo electrónico</label>
             <input
               type="email"
               value={form.email}
@@ -46,7 +46,7 @@ const ContactForm = () => {
             />
           </div>
           <div>
-            <label className="block font-body text-base text-primary mb-2">Cuéntame brevemente qué te ha traído hasta aquí</label>
+            <label className="block font-body text-lg text-primary mb-2">Cuéntame brevemente qué te ha traído hasta aquí</label>
             <textarea
               value={form.mensaje}
               onChange={(e) => setForm({ ...form, mensaje: e.target.value })}
@@ -57,13 +57,13 @@ const ContactForm = () => {
 
           <button
             type="submit"
-            className="bg-primary text-primary-foreground font-body text-base px-8 py-3 rounded-full hover:opacity-90 transition-opacity"
+            className="bg-primary text-primary-foreground font-body text-lg px-10 py-4 rounded-full hover:opacity-90 transition-opacity"
           >
             Enviar
           </button>
         </form>
 
-        <p className="font-body text-lg text-primary font-medium text-center mt-10 italic leading-relaxed">
+        <p className="font-body text-xl lg:text-2xl text-primary font-medium text-center mt-10 italic leading-relaxed">
           Me pondré en contacto contigo lo antes posible para ofrecerte un primer espacio de encuentro.
         </p>
       </div>

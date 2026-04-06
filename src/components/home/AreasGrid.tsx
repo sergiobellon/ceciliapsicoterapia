@@ -21,7 +21,7 @@ const AreasGrid = () => (
       <p className="font-body text-sm uppercase tracking-widest text-muted-foreground mb-2 fade-in">
         Psicóloga y Psicoterapeuta
       </p>
-      <h2 className="font-display text-3xl sm:text-4xl text-foreground mb-12 fade-in">
+      <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl text-foreground mb-12 fade-in">
         Áreas de acompañamiento
       </h2>
 
@@ -32,7 +32,7 @@ const AreasGrid = () => (
             to={`/servicios#${area.id}`}
             className="group fade-in flex flex-col items-center"
           >
-            <div className="w-40 h-52 sm:w-48 sm:h-64 lg:w-56 lg:h-72 arch-clip overflow-hidden mb-4">
+            <div className="w-40 h-40 sm:w-48 sm:h-48 lg:w-56 lg:h-56 rounded-full overflow-hidden mb-4">
               <img
                 src={area.img}
                 alt={area.label}
@@ -40,7 +40,7 @@ const AreasGrid = () => (
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
             </div>
-            <p className="font-body text-base lg:text-lg text-foreground group-hover:text-secondary transition-colors">
+            <p className="font-body text-lg lg:text-xl text-foreground group-hover:text-primary transition-colors">
               {area.label}
             </p>
           </Link>
