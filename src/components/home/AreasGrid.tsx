@@ -32,7 +32,7 @@ const AreasGrid = () => (
             to={`/servicios#${area.id}`}
             className="group fade-in flex flex-col items-center"
           >
-            <div className="w-40 h-40 sm:w-48 sm:h-48 lg:w-56 lg:h-56 rounded-full overflow-hidden mb-4">
+            <div className="w-40 h-52 sm:w-48 sm:h-64 lg:w-56 lg:h-72 rounded-3xl overflow-hidden mb-4">
               <img
                 src={area.img}
                 alt={area.label}
