@@ -93,7 +93,7 @@ const SobreMi = () => {
             </ul>
 
             <p className="font-body text-lg text-primary-foreground/80 italic mt-10 leading-relaxed fade-in">
-              Mi formación se complementa con distintos cursos en áreas como regulación emocional, terapia sistémica, análisis transaccional y psicopatología, que aportan profundidad y coherencia a mi práctica clínica.
+              Mantengo una formación continua en las distintas áreas y enfoques psicoterapéuticos en los que trabajo, que enriquecen y dan coherencia a mi práctica clínica.
             </p>
           </div>
         </section>
