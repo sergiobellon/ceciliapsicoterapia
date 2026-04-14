@@ -6,10 +6,10 @@ const HeroSection = () => (
     <div className="container mx-auto px-4 lg:px-8 flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
       <div className="flex-1 fade-in">
         <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl leading-tight text-foreground mb-6">
-          Un espacio terapéutico seguro donde, a través del vínculo, el malestar puede aliviarse y transformarse.
+          Un espacio terapéutico seguro donde, a través del vínculo, lo que te ocurre puede ser escuchado, comprendido y transformado.
         </h1>
         <p className="font-body text-xl lg:text-2xl text-foreground/80 mb-8 leading-relaxed">
-          Acompaño a jóvenes y adultos en su malestar emocional, favoreciendo procesos de regulación, equilibrio y estabilidad emocional.
+          Acompaño a jóvenes y adultos en su malestar, favoreciendo procesos de regulación, equilibrio y estabilidad emocional.
         </p>
         <Link
           to="/servicios"
