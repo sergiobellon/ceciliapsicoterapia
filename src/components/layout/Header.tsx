@@ -18,11 +18,11 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm">
       <div className="container mx-auto flex items-center justify-between py-4 px-4 lg:px-8">
         <Link to="/" className="flex items-center gap-3">
-          <img src={logo} alt="Cecilia de Gracia" className="h-[3.25rem] w-auto" />
+          <img src={logo} alt="Cecilia de Gracia" className="h-16 w-auto" />
           <div className="hidden sm:block leading-tight">
-            <p className="font-display text-base font-semibold text-foreground">Cecilia de Gracia Gallego</p>
-            <p className="text-sm text-muted-foreground">Psicóloga | Psicoterapia Integrativa Relacional</p>
-            <p className="text-sm text-muted-foreground">Colegiada nº21816</p>
+            <p className="font-display text-lg font-semibold text-foreground">Cecilia de Gracia Gallego</p>
+            <p className="text-base text-muted-foreground">Psicóloga | Psicoterapia Integrativa Relacional</p>
+            <p className="text-base text-muted-foreground">Colegiada nº21816</p>
           </div>
         </Link>
 

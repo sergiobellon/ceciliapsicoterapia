@@ -2,15 +2,15 @@ import { Link } from 'react-router-dom';
 
 const steps = [
   {
-    title: 'Lo que te trae aquí',
-    text: 'Partimos de lo que estás viviendo en este momento, de aquello que de alguna manera se está moviendo en ti y te ha llevado a buscar ayuda.',
+    title: 'Inicio del proceso terapéutico',
+    text: 'Partimos de lo que estás viviendo en este momento y de lo que te ha llevado a buscar ayuda. Damos espacio a tus preocupaciones, emociones y dificultades para comenzar a comprender qué necesitas y qué está ocurriendo.',
   },
   {
     title: 'Entender lo que ocurre',
     text: 'Exploramos lo que te ocurre y vamos entendiendo cómo se ha construido ese malestar y cómo influye en tus emociones, creencias y relaciones.',
   },
   {
-    title: 'Encontrar equilibrio',
+    title: 'Integrar y transformar',
     text: 'El proceso terapéutico se orienta a favorecer la regulación emocional, la estabilidad interna y una forma de estar contigo en mayor sintonía y equilibrio.',
   },
 ];

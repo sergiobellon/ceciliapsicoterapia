@@ -59,8 +59,8 @@ const SobreMi = () => {
               <p className="fade-in">
                 <strong>Ofrezco terapia presencial en Rubí y también online,</strong> facilitando el acceso al proceso terapéutico según las necesidades de cada persona.
               </p>
-              <p className="fade-in font-medium italic text-primary">
-                Si sientes que este puede ser un espacio para ti, quizá este sea un buen momento para empezar a mirarlo de otra manera.
+              <p className="fade-in font-medium italic text-primary text-center">
+                Si sientes que necesitas atender lo que te ocurre, la terapia puede ofrecerte un espacio seguro donde comprender, expresar y dar sentido a lo que estás atravesando.
               </p>
             </div>
 
