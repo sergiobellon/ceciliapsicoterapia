@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import heroImg from '@/assets/hero-cecilia.jpg';
 
 const HeroSection = () => (
-  <section className="pt-28 pb-16 lg:pt-36 lg:pb-24">
+  <section className="pt-36 pb-16 lg:pt-44 lg:pb-24">
     <div className="container mx-auto px-4 lg:px-8 flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
       <div className="flex-1 fade-in">
         <h1 className="font-display text-3xl sm:text-4xl lg:text-5xl leading-tight text-foreground mb-6">
