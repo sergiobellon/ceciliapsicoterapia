@@ -5,7 +5,7 @@ import Footer from '@/components/layout/Footer';
 import ServiceDetail from '@/components/servicios/ServiceDetail';
 import { useFadeIn } from '@/hooks/useFadeIn';
 
-import regulacionImg from '@/assets/regulacion-emocional.jpg';
+import regulacionAsset from '@/assets/paisaje-atardecer.webp.asset.json';
 import relacionesImg from '@/assets/relaciones.jpg';
 import traumaImg from '@/assets/trauma.jpg';
 import dueloImg from '@/assets/duelo.jpg';
@@ -18,7 +18,7 @@ const services = [
     title: 'Regulación emocional',
     text: 'A veces las emociones se vuelven intensas, confusas o difíciles de sostener, generando ansiedad, estados depresivos, dificultad en el control de impulsos, bloqueo o sensación de inestabilidad. Estas formas de gestionar lo que sientes están relacionadas con tu historia y con la manera en que has aprendido a relacionarte contigo y con los demás. En terapia, trabajamos para comprender el sentido de lo que te ocurre y desarrollar formas más ajustadas de regulación emocional.',
     highlight: 'Cuando entendemos el mensaje que trae la emoción, cambia también la manera de relacionarnos con ella.',
-    image: regulacionImg,
+    image: regulacionAsset.url,
   },
   {
     id: 'dificultades-relacionales',
@@ -78,9 +78,12 @@ const Servicios = () => {
           <p className="font-body text-sm uppercase tracking-widest text-muted-foreground mb-2">
             Psicóloga y Psicoterapeuta
           </p>
-          <h1 className="font-display text-3xl sm:text-4xl text-foreground">
+          <h1 className="font-display text-3xl sm:text-4xl text-foreground mb-6">
             Áreas de acompañamiento
           </h1>
+          <p className="font-body text-lg lg:text-xl text-foreground/80 max-w-3xl mx-auto leading-relaxed px-4">
+            Acompaño a jóvenes y adultos en diferentes momentos de dificultad, ofreciendo un espacio terapéutico desde el que comprender lo que ocurre y favorecer cambios que permitan recuperar equilibrio y bienestar.
+          </p>
         </div>
 
         {services.map((s, i) => (
