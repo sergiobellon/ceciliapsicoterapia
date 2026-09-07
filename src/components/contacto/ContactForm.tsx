@@ -1,13 +1,19 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { toast } from '@/hooks/use-toast';
 
 const ContactForm = () => {
   const [form, setForm] = useState({ nombre: '', telefono: '', email: '', mensaje: '' });
+  const [aceptaPrivacidad, setAceptaPrivacidad] = useState(false);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!form.nombre || !form.email) {
       toast({ title: 'Por favor, rellena al menos el nombre y el correo.', variant: 'destructive' });
+      return;
+    }
+    if (!aceptaPrivacidad) {
+      toast({ title: 'Debes leer y aceptar la política de privacidad.', variant: 'destructive' });
       return;
     }
     toast({ title: '¡Mensaje enviado!', description: 'Me pondré en contacto contigo lo antes posible.' });
@@ -54,6 +60,21 @@ const ContactForm = () => {
               className="w-full bg-input border-none rounded-3xl px-6 py-4 font-body text-foreground focus:outline-none focus:ring-2 focus:ring-ring resize-none"
             />
           </div>
+
+          <label className="flex items-start gap-3 cursor-pointer">
+            <input
+              type="checkbox"
+              checked={aceptaPrivacidad}
+              onChange={(e) => setAceptaPrivacidad(e.target.checked)}
+              className="mt-1 h-5 w-5 shrink-0 accent-[hsl(var(--primary))]"
+            />
+            <span className="font-body text-base text-foreground/80">
+              He leído y acepto la{' '}
+              <Link to="/privacidad" className="text-primary underline underline-offset-2 hover:opacity-80">
+                política de privacidad
+              </Link>
+            </span>
+          </label>
 
           <button
             type="submit"
