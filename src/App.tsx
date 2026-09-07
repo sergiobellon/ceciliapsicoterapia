@@ -6,6 +6,7 @@ import Index from "./pages/Index";
 import SobreMi from "./pages/SobreMi";
 import Servicios from "./pages/Servicios";
 import Contacto from "./pages/Contacto";
+import Privacidad from "./pages/Privacidad";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "./components/ScrollToTop";
 
@@ -22,6 +23,7 @@ const App = () => (
           <Route path="/sobre-mi" element={<SobreMi />} />
           <Route path="/servicios" element={<Servicios />} />
           <Route path="/contacto" element={<Contacto />} />
+          <Route path="/privacidad" element={<Privacidad />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

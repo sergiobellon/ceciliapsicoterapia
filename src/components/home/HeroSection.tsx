@@ -5,11 +5,11 @@ const HeroSection = () => (
   <section className="pt-28 pb-16 lg:pt-36 lg:pb-24">
     <div className="container mx-auto px-4 lg:px-8 flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
       <div className="flex-1 fade-in">
-        <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl leading-tight text-foreground mb-6">
-          Un espacio terapéutico seguro donde, a través del vínculo, lo que te ocurre puede ser escuchado, comprendido y transformado.
+        <h1 className="font-display text-3xl sm:text-4xl lg:text-5xl leading-tight text-foreground mb-6">
+          Un espacio terapéutico seguro donde, a través del vínculo, lo que te ocurre es escuchado, comprendido y transformado.
         </h1>
         <p className="font-body text-xl lg:text-2xl text-foreground/80 mb-8 leading-relaxed">
-          Acompaño a jóvenes y adultos en su malestar, favoreciendo procesos de regulación, equilibrio y estabilidad emocional.
+          Acompaño a las personas en su malestar, favoreciendo procesos de regulación, equilibrio y estabilidad emocional.
         </p>
         <Link
           to="/servicios"
@@ -20,7 +20,7 @@ const HeroSection = () => (
       </div>
 
       <div className="flex-1 flex justify-center fade-in">
-        <div className="w-72 sm:w-80 lg:w-96 rounded-3xl overflow-hidden">
+        <div className="w-72 sm:w-80 lg:w-[26rem] rounded-3xl overflow-hidden">
           <img
             src={heroImg}
             alt="Cecilia de Gracia Gallego, psicóloga"

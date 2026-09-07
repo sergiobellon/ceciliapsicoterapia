@@ -5,7 +5,7 @@ import Footer from '@/components/layout/Footer';
 import ServiceDetail from '@/components/servicios/ServiceDetail';
 import { useFadeIn } from '@/hooks/useFadeIn';
 
-import regulacionImg from '@/assets/regulacion-emocional.jpg';
+import regulacionImg from '@/assets/paisaje-atardecer.webp';
 import relacionesImg from '@/assets/relaciones.jpg';
 import traumaImg from '@/assets/trauma.jpg';
 import dueloImg from '@/assets/duelo.jpg';
@@ -78,9 +78,12 @@ const Servicios = () => {
           <p className="font-body text-sm uppercase tracking-widest text-muted-foreground mb-2">
             Psicóloga y Psicoterapeuta
           </p>
-          <h1 className="font-display text-3xl sm:text-4xl text-foreground">
+          <h1 className="font-display text-3xl sm:text-4xl text-foreground mb-6">
             Áreas de acompañamiento
           </h1>
+          <p className="font-body text-lg lg:text-xl text-foreground/80 max-w-3xl mx-auto leading-relaxed px-4">
+            Acompaño a jóvenes y adultos en diferentes momentos de dificultad, ofreciendo un espacio terapéutico desde el que comprender lo que ocurre y favorecer cambios que permitan recuperar equilibrio y bienestar.
+          </p>
         </div>
 
         {services.map((s, i) => (
