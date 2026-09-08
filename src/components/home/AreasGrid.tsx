@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import regulacionImg from '@/assets/regulacion-emocional.jpg';
+import regulacionImg from '@/assets/paisaje-atardecer.webp';
 import relacionesImg from '@/assets/relaciones.jpg';
 import traumaImg from '@/assets/trauma.jpg';
 import dueloImg from '@/assets/duelo.jpg';

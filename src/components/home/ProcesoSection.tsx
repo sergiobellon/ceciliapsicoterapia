@@ -16,12 +16,12 @@ const steps = [
 ];
 
 const ProcesoSection = () => (
-  <section className="py-16 lg:py-24">
+  <section className="bg-primary py-16 lg:py-24">
     <div className="container mx-auto px-4 lg:px-8 text-center">
-      <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl text-foreground mb-4 fade-in">
+      <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl text-primary-foreground mb-4 fade-in">
         Cómo es el proceso terapéutico
       </h2>
-      <p className="font-body text-lg lg:text-xl text-foreground/80 max-w-3xl mx-auto mb-12 leading-relaxed fade-in">
+      <p className="font-body text-lg lg:text-xl text-primary-foreground/90 max-w-3xl mx-auto mb-12 leading-relaxed fade-in">
         La Psicoterapia Integrativa Relacional entiende el malestar como algo que se construye en la historia y en los vínculos, y que puede ser comprendido y transformado en un espacio terapéutico seguro.
       </p>
 
@@ -29,7 +29,7 @@ const ProcesoSection = () => (
         {steps.map((step) => (
           <div
             key={step.title}
-            className="border border-border rounded-2xl p-6 text-left fade-in"
+            className="bg-[#eee4c8] rounded-2xl p-6 text-left fade-in"
           >
             <h3 className="font-display text-xl font-semibold text-primary mb-3">{step.title}</h3>
             <p className="font-body text-lg text-foreground/80 leading-relaxed">{step.text}</p>
@@ -39,7 +39,7 @@ const ProcesoSection = () => (
 
       <Link
         to="/contacto"
-        className="inline-block bg-primary text-primary-foreground font-body text-lg px-10 py-4 rounded-full hover:opacity-90 transition-opacity fade-in"
+        className="inline-block bg-background text-primary font-body text-lg px-10 py-4 rounded-full hover:opacity-90 transition-opacity fade-in"
       >
         Pide Cita
       </Link>
