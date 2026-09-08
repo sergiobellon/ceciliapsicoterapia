@@ -63,7 +63,7 @@ const SobreMi = () => {
                 <strong>Trabajo desde una mirada integrativa relacional,</strong> adaptando el proceso al ritmo y las necesidades de cada persona. El vínculo terapéutico es el eje central del proceso: un espacio seguro, estable y respetuoso desde el que poder explorar, comprender y transformar.
               </p>
               <p className="fade-in">
-                <strong>Ofrezco terapia presencial en Rubí y también online,</strong> facilitando el acceso al proceso terapéutico según las necesidades de cada persona.
+                <strong>Ofrezco terapia presencial en Rubí y también online.</strong>
               </p>
               <p className="fade-in font-medium italic text-primary text-center">
                 Si sientes que necesitas atender lo que te ocurre, la terapia puede ofrecerte un espacio seguro donde comprender, expresar y dar sentido a lo que estás atravesando.
@@ -99,7 +99,7 @@ const SobreMi = () => {
             </ul>
 
             <p className="font-body text-lg text-primary-foreground/80 italic mt-10 leading-relaxed fade-in">
-              Mi formación se complementa con distintos cursos en áreas como regulación emocional, terapia sistémica, análisis transaccional y psicopatología, que aportan profundidad y coherencia a mi práctica clínica.
+              La formación que comparto aquí recoge una selección de las especializaciones que han ido dando forma a mi práctica clínica, junto con otras en diferentes áreas de intervención. Mi trayectoria continúa ampliándose a través de una actualización constante que me permite seguir profundizando y enriqueciendo mi práctica profesional.
             </p>
           </div>
         </section>
