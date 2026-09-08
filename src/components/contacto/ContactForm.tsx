@@ -23,7 +23,8 @@ const ContactForm = () => {
 
   return (
     <section className="py-16 lg:py-24">
-      <div className="container mx-auto px-4 lg:px-8 max-w-5xl fade-in flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
+      <div className="container mx-auto px-4 lg:px-8 max-w-5xl fade-in">
+        <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
         <div className="hidden lg:block flex-1">
           <div className="w-full max-w-sm mx-auto rounded-3xl overflow-hidden">
             <img
@@ -94,6 +95,7 @@ const ContactForm = () => {
             Enviar
           </button>
         </form>
+        </div>
 
         <p className="font-body text-xl lg:text-2xl text-primary font-medium text-center mt-10 italic leading-relaxed">
           Me pondré en contacto contigo lo antes posible para ofrecerte un primer espacio de encuentro.
