@@ -118,13 +118,6 @@ A partir de entonces, cada `git push origin main` actualizará la web automátic
 
 ---
 
-## Contacto
-
-- **Instagram:** [@cecilia_psicoterapia](https://www.instagram.com/cecilia_psicoterapia)
-- **Teléfono:** [+34 682 025 418](tel:+34682025418)
-- **Correo:** [ceciliadegracia@copc.cat](mailto:ceciliadegracia@copc.cat)
-- **Ubicación:** Rubí, Barcelona
-
 ---
 
 Desarrollado con [Lovable](https://lovable.dev) y ajustado para publicación en GitHub Pages.
