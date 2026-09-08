@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { toast } from '@/hooks/use-toast';
+import contactoImg from '@/assets/cecilia-contacto.webp';
 
 const ContactForm = () => {
   const [form, setForm] = useState({ nombre: '', telefono: '', email: '', mensaje: '' });
@@ -22,8 +23,19 @@ const ContactForm = () => {
 
   return (
     <section className="py-16 lg:py-24">
-      <div className="container mx-auto px-4 lg:px-8 max-w-2xl fade-in">
-        <form onSubmit={handleSubmit} className="space-y-8">
+      <div className="container mx-auto px-4 lg:px-8 max-w-5xl fade-in">
+        <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
+        <div className="hidden lg:block flex-1">
+          <div className="w-full max-w-sm mx-auto rounded-3xl overflow-hidden">
+            <img
+              src={contactoImg}
+              alt="Cecilia de Gracia leyendo en su consulta"
+              loading="lazy"
+              className="w-full h-auto object-cover"
+            />
+          </div>
+        </div>
+        <form onSubmit={handleSubmit} className="space-y-8 flex-1 w-full max-w-2xl">
           <div>
             <label className="block font-body text-lg text-primary mb-2">Nombre y apellidos</label>
             <input
@@ -83,6 +95,7 @@ const ContactForm = () => {
             Enviar
           </button>
         </form>
+        </div>
 
         <p className="font-body text-xl lg:text-2xl text-primary font-medium text-center mt-10 italic leading-relaxed">
           Me pondré en contacto contigo lo antes posible para ofrecerte un primer espacio de encuentro.
