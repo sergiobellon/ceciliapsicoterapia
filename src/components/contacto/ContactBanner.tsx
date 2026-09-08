@@ -9,13 +9,13 @@ const ContactBanner = () => (
       <p className="font-body text-lg lg:text-xl text-primary-foreground/90 max-w-2xl mx-auto mb-8 leading-relaxed">
         Este puede ser un buen momento para empezar a mirar lo que te ocurre de una manera diferente.
       </p>
-      <div className="flex flex-col sm:flex-row items-center justify-center gap-6 text-primary-foreground font-body text-lg">
-        <a href="tel:+34682025418" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-          <Phone size={20} />
+      <div className="flex flex-col sm:flex-row items-center justify-center gap-6 text-primary-foreground font-body text-xl lg:text-2xl">
+        <a href="tel:+34682025418" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
+          <Phone size={24} />
           <span>+34 682 025 418</span>
         </a>
-        <a href="mailto:ceciliadegracia@copc.cat" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-          <Mail size={20} />
+        <a href="mailto:ceciliadegracia@copc.cat" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
+          <Mail size={24} />
           <span>ceciliadegracia@copc.cat</span>
         </a>
       </div>
