@@ -11,6 +11,7 @@ import traumaImg from '@/assets/trauma.jpg';
 import dueloImg from '@/assets/duelo.jpg';
 import comidaImg from '@/assets/relacion-comida.jpg';
 import autoconocimientoImg from '@/assets/autoconocimiento.jpg';
+import Seo from '@/components/Seo';
 
 const services = [
   {
@@ -72,6 +73,11 @@ const Servicios = () => {
 
   return (
     <div ref={ref}>
+      <Seo
+        title="Áreas de acompañamiento | Psicoterapia con Cecilia de Gracia"
+        description="Regulación emocional, dificultades relacionales, trauma, duelo, relación con la comida y autoconocimiento. Terapia presencial en Rubí y online."
+        path="/servicios"
+      />
       <Header />
       <main className="pt-20">
         <div className="text-center py-12 lg:py-16 fade-in">
