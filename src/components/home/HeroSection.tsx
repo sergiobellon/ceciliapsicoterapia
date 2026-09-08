@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import heroImg from '@/assets/hero-cecilia.jpg';
+import heroImg from '@/assets/cecilia-hero.webp';
 
 const HeroSection = () => (
   <section className="pt-36 pb-16 lg:pt-44 lg:pb-24">

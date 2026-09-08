@@ -1,7 +1,7 @@
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import { useFadeIn } from '@/hooks/useFadeIn';
-import heroImg from '@/assets/hero-cecilia.jpg';
+import heroImg from '@/assets/cecilia-sobre-mi.webp';
 
 const formacion = [
   'Licenciatura en Psicología – Universidad de Granada',
