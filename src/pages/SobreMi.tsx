@@ -70,8 +70,8 @@ const SobreMi = () => {
               </p>
             </div>
 
-            <div className="flex-1 flex justify-center fade-in">
-              <div className="w-72 sm:w-80 lg:w-96 rounded-3xl overflow-hidden sticky top-28">
+            <div className="flex-1 flex justify-center items-center fade-in">
+              <div className="w-80 sm:w-96 lg:w-[30rem] rounded-3xl overflow-hidden sticky top-28">
                 <img
                   src={heroImg}
                   alt="Cecilia de Gracia Gallego, psicóloga"
