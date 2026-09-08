@@ -5,12 +5,18 @@ import FranjaSection from '@/components/home/FranjaSection';
 import AreasGrid from '@/components/home/AreasGrid';
 import ProcesoSection from '@/components/home/ProcesoSection';
 import { useFadeIn } from '@/hooks/useFadeIn';
+import Seo from '@/components/Seo';
 
 const Index = () => {
   const ref = useFadeIn();
 
   return (
     <div ref={ref}>
+      <Seo
+        title="Psicóloga en Rubí y online | Cecilia de Gracia Gallego"
+        description="Psicoterapia integrativa relacional para jóvenes y adultos en Rubí y online. Un espacio seguro donde lo que te ocurre es escuchado, comprendido y transformado."
+        path="/"
+      />
       <Header />
       <main>
         <HeroSection />

@@ -2,6 +2,7 @@ import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import { useFadeIn } from '@/hooks/useFadeIn';
 import heroImg from '@/assets/cecilia-contacto.webp';
+import Seo from '@/components/Seo';
 
 const formacion = [
   'Licenciatura en Psicología – Universidad de Granada',
@@ -20,6 +21,11 @@ const SobreMi = () => {
 
   return (
     <div ref={ref}>
+      <Seo
+        title="Sobre mí | Cecilia de Gracia Gallego, psicóloga colegiada nº21816"
+        description="Conoce mi forma de acompañar y mi formación en psicoterapia integrativa relacional, trauma, EMDR, duelo y conducta alimentaria."
+        path="/sobre-mi"
+      />
       <Header />
       <main>
         {/* Banner */}

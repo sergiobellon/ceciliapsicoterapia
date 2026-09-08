@@ -1,12 +1,18 @@
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import { useFadeIn } from '@/hooks/useFadeIn';
+import Seo from '@/components/Seo';
 
 const Privacidad = () => {
   const ref = useFadeIn();
 
   return (
     <div ref={ref}>
+      <Seo
+        title="Política de privacidad | Cecilia de Gracia Gallego"
+        description="Información sobre el tratamiento de datos personales facilitados a través de este sitio web."
+        path="/privacidad"
+      />
       <Header />
       <main className="pt-28 pb-16 lg:pt-36 lg:pb-24">
         <div className="container mx-auto px-4 lg:px-8 max-w-3xl space-y-8 font-body text-lg text-foreground/85 leading-relaxed">
