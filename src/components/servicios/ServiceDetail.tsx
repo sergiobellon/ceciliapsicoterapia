@@ -23,15 +23,9 @@ const ServiceDetail = ({ id, title, text, highlight, image, reverse }: ServiceDe
         <p className="font-body text-lg lg:text-xl text-foreground/80 leading-relaxed mb-6 whitespace-pre-line">
           {text}
         </p>
-        <p className="font-body text-lg lg:text-xl text-primary font-medium italic mb-8 leading-relaxed">
+        <p className="font-body text-lg lg:text-xl text-primary font-medium italic leading-relaxed">
           {highlight}
         </p>
-        <Link
-          to="/contacto"
-          className="inline-block bg-primary text-primary-foreground font-body text-lg px-10 py-4 rounded-full hover:opacity-90 transition-opacity"
-        >
-          Pide Cita
-        </Link>
       </div>
 
       {/* Hidden on mobile to avoid pushing CTA too far down */}

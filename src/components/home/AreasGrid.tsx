@@ -40,7 +40,7 @@ const AreasGrid = () => (
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
             </div>
-            <p className="font-body text-lg lg:text-xl text-foreground group-hover:text-primary transition-colors">
+            <p className="font-body text-xl sm:text-2xl lg:text-3xl text-foreground group-hover:text-primary transition-colors">
               {area.label}
             </p>
           </Link>
