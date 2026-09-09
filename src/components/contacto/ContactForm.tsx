@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { toast } from '@/hooks/use-toast';
-import contactoImg from '@/assets/cecilia-contacto.webp';
 
 const ContactForm = () => {
   const [form, setForm] = useState({ nombre: '', telefono: '', email: '', mensaje: '' });
