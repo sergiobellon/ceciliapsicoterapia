@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { ChevronLeft, ChevronRight, Star } from 'lucide-react';
-import doctoraliaLogo from '@/assets/doctoralia-logo.png.asset.json';
+import doctoraliaLogo from '@/assets/doctoralia-logo.png';
 
 const opiniones = [
   {
