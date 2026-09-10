@@ -70,7 +70,7 @@ const TestimoniosSection = () => {
                   />
                   <div className="flex gap-1 text-[#00A58C] mb-4" aria-label="5 de 5 estrellas">
                     {Array.from({ length: 5 }).map((_, i) => (
-                      <Star key={i} size={16} className="fill-current" />
+                      <Star key={i} size={11} className="fill-current" />
                     ))}
                   </div>
                   <blockquote className="font-body text-base lg:text-lg text-foreground/85 leading-relaxed flex-1">
