@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import { useIsMobile } from '@/hooks/use-mobile';
 import { ChevronLeft, ChevronRight, Star } from 'lucide-react';
 import doctoraliaLogo from '@/assets/doctoralia-logo.png';
 
