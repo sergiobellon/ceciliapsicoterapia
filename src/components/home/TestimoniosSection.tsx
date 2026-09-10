@@ -64,7 +64,7 @@ const TestimoniosSection = () => {
               >
                 <div className="bg-background rounded-[1.375rem] p-6 h-full flex flex-col">
                   <img
-                    src={doctoraliaLogo.url}
+                    src={doctoraliaLogo}
                     alt="Doctoralia"
                     className="w-1/2 h-auto mb-3 object-contain self-start"
                   />
