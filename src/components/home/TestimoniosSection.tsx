@@ -63,6 +63,11 @@ const TestimoniosSection = () => {
                 className="bg-primary rounded-3xl p-1"
               >
                 <div className="bg-background rounded-[1.375rem] p-6 h-full flex flex-col">
+                  <img
+                    src={doctoraliaSymbol}
+                    alt="Doctoralia"
+                    className="h-7 w-auto mb-4 object-contain"
+                  />
                   <div className="flex gap-1 text-primary mb-4" aria-label="5 de 5 estrellas">
                     {Array.from({ length: 5 }).map((_, i) => (
                       <Star key={i} size={16} className="fill-current" />
