@@ -59,9 +59,9 @@ const TestimoniosSection = () => {
             {visibles.map((o) => (
               <figure
                 key={o.author + o.text.slice(0, 12)}
-                className="bg-primary rounded-3xl p-3"
+                className="bg-primary rounded-3xl p-1"
               >
-                <div className="bg-background rounded-2xl p-6 h-full flex flex-col">
+                <div className="bg-background rounded-[1.375rem] p-6 h-full flex flex-col">
                   <div className="flex gap-1 text-primary mb-4" aria-label="5 de 5 estrellas">
                     {Array.from({ length: 5 }).map((_, i) => (
                       <Star key={i} size={16} className="fill-current" />
