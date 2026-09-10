@@ -66,9 +66,9 @@ const TestimoniosSection = () => {
                   <img
                     src={doctoraliaLogo.url}
                     alt="Doctoralia"
-                    className="h-8 w-auto mb-4 object-contain"
+                    className="w-1/2 h-auto mb-3 object-contain self-start"
                   />
-                  <div className="flex gap-1 text-primary mb-4" aria-label="5 de 5 estrellas">
+                  <div className="flex gap-1 text-[#00A58C] mb-4" aria-label="5 de 5 estrellas">
                     {Array.from({ length: 5 }).map((_, i) => (
                       <Star key={i} size={16} className="fill-current" />
                     ))}
