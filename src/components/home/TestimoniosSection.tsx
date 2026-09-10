@@ -97,30 +97,8 @@ const TestimoniosSection = () => {
             href="https://www.doctoralia.es/z/ZD21KD"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 text-primary underline underline-offset-4 hover:opacity-80 transition-opacity"
+            className="text-primary underline underline-offset-4 hover:opacity-80 transition-opacity"
           >
-            <svg
-              aria-hidden="true"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              className="shrink-0"
-            >
-              <rect width="24" height="24" rx="7" fill="currentColor" fillOpacity="0.12" />
-              <path
-                d="M9 6.5h3.5c2.5 0 4.5 2 4.5 5s-2 5-4.5 5H9V6.5z"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinejoin="round"
-              />
-              <path
-                d="M9 11.5h3"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-              />
-            </svg>
             Puedes encontrar más opiniones en mi perfil de Doctoralia
           </a>
         </p>
