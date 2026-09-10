@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { ChevronLeft, ChevronRight, Star } from 'lucide-react';
-import doctoraliaSymbol from '@/assets/doctoralia-symbol.png';
+import doctoraliaLogo from '@/assets/doctoralia-logo.png.asset.json';
 
 const opiniones = [
   {
@@ -64,9 +64,9 @@ const TestimoniosSection = () => {
               >
                 <div className="bg-background rounded-[1.375rem] p-6 h-full flex flex-col">
                   <img
-                    src={doctoraliaSymbol}
+                    src={doctoraliaLogo.url}
                     alt="Doctoralia"
-                    className="h-7 w-auto mb-4 object-contain"
+                    className="h-8 w-auto mb-4 object-contain"
                   />
                   <div className="flex gap-1 text-primary mb-4" aria-label="5 de 5 estrellas">
                     {Array.from({ length: 5 }).map((_, i) => (
