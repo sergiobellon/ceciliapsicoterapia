@@ -4,6 +4,7 @@ import HeroSection from '@/components/home/HeroSection';
 import FranjaSection from '@/components/home/FranjaSection';
 import AreasGrid from '@/components/home/AreasGrid';
 import ProcesoSection from '@/components/home/ProcesoSection';
+import TestimoniosSection from '@/components/home/TestimoniosSection';
 import { useFadeIn } from '@/hooks/useFadeIn';
 import Seo from '@/components/Seo';
 
@@ -28,6 +29,7 @@ const Index = () => {
         />
         <AreasGrid />
         <ProcesoSection />
+        <TestimoniosSection />
       </main>
       <Footer />
     </div>
