@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import { useIsMobile } from '@/hooks/use-mobile';
 import { ChevronLeft, ChevronRight, Star } from 'lucide-react';
 import doctoraliaLogo from '@/assets/doctoralia-logo.png';
 
@@ -29,15 +30,20 @@ const opiniones = [
   },
 ];
 
-const PAGES = 2;
-
 const TestimoniosSection = () => {
+  const isMobile = useIsMobile();
+  const perPage = isMobile ? 1 : 3;
+  const pages = Math.ceil(opiniones.length / perPage);
   const [page, setPage] = useState(0);
 
-  const prev = () => setPage((p) => (p - 1 + PAGES) % PAGES);
-  const next = () => setPage((p) => (p + 1) % PAGES);
+  useEffect(() => {
+    setPage(0);
+  }, [perPage]);
 
-  const visibles = opiniones.slice(page * 3, page * 3 + 3);
+  const prev = () => setPage((p) => (p - 1 + pages) % pages);
+  const next = () => setPage((p) => (p + 1) % pages);
+
+  const visibles = opiniones.slice(page * perPage, page * perPage + perPage);
 
   return (
     <section className="bg-background py-16 lg:py-24">
