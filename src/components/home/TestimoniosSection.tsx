@@ -95,15 +95,21 @@ const TestimoniosSection = () => {
           >
             <svg
               aria-hidden="true"
-              width="22"
-              height="22"
+              width="24"
+              height="24"
               viewBox="0 0 24 24"
               fill="none"
               className="shrink-0"
             >
-              <rect width="24" height="24" rx="6" fill="currentColor" fillOpacity="0.12" />
+              <rect width="24" height="24" rx="7" fill="currentColor" fillOpacity="0.12" />
               <path
-                d="M12 6v12M7 11h10"
+                d="M9 6.5h3.5c2.5 0 4.5 2 4.5 5s-2 5-4.5 5H9V6.5z"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinejoin="round"
+              />
+              <path
+                d="M9 11.5h3"
                 stroke="currentColor"
                 strokeWidth="2"
                 strokeLinecap="round"
